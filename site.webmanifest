@@ -1,0 +1,10 @@
+{
+  "name": "Sahyog Studio",
+  "short_name": "Sahyog",
+  "description": "Photo studio in Dahegam, Gujarat",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#0a0a0a",
+  "icons": [{ "src": "assets/img/favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}
