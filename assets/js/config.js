@@ -23,8 +23,8 @@ window.SAHYOG = {
   branchMapsUrl: "https://www.google.com/maps/search/?api=1&query=Mahadev+Arcade+Atarsumba+Kapadvanj+Highway",
 
   instagram: "https://www.instagram.com/sahyog_studio_4006/",
-  facebook: "",                              // add link to show it
-  youtube: "",                               // add link to show it
+  facebook: "https://www.facebook.com/profile.php?id=100008484213389",
+  youtube: "https://www.youtube.com/@sahyogphotostudiorakhital736",
   justdial: "https://www.justdial.com/Dehgam/Sahyog-Photo-Studio-Dahegam-Near-By-Municipal-Girls-High-School-Dahegam/9999PXX79-XX79-250830164301-F7Y8_BZDET",
   googleReviews: "https://goo.gl/maps/3c9RSkSRBy5TSyfY7"
 };

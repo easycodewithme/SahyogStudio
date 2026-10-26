@@ -259,6 +259,22 @@ address { font-style: normal; }
 }
 .films__play:hover .films__play-dot { background: var(--white); color: var(--ink); transform: scale(1.06); }
 
+/* ---------- Featured film ---------- */
+.feature { background: var(--ink); padding-block: clamp(72px, 9vw, 128px); }
+.feature__head { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 20px 40px; margin-bottom: clamp(28px, 4vw, 48px); }
+.feature__title { font-family: var(--f-display); font-size: clamp(2rem, 4vw, 3.25rem); line-height: 1.06; letter-spacing: -0.02em; }
+.feature__links { display: flex; flex-wrap: wrap; gap: 24px; }
+.video { position: relative; aspect-ratio: 16 / 9; background: var(--ink-2); overflow: hidden; }
+.video__poster, .video iframe { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; border: 0; }
+.video__play {
+  position: absolute; inset: 0; display: grid; place-items: center; width: 100%;
+  background: rgba(0, 0, 0, 0.25); border: 0; color: var(--white); cursor: pointer; transition: background-color 0.3s;
+}
+.video__play .films__play-dot { width: 88px; height: 88px; background: rgba(0, 0, 0, 0.35); border-color: var(--white); }
+.video__play .ico { width: 28px; height: 28px; }
+.video__play:hover { background: rgba(0, 0, 0, 0.1); }
+.video__play:hover .films__play-dot { background: var(--white); color: var(--ink); transform: scale(1.06); }
+
 /* ---------- Process (light) ---------- */
 .process { padding-block: var(--s-section); }
 .process.wrap { max-width: none; background: var(--white); color: var(--on-light); padding-inline: max(var(--gutter), calc((100% - var(--max)) / 2 + var(--gutter))); }

@@ -6,11 +6,11 @@ Plain HTML/CSS/JS. No build step. Open `index.html` in a browser, or host the fo
 
 ## Business details
 
-1. **`assets/js/config.js`**: phone, WhatsApp, map links, Instagram, Facebook, YouTube. A link left as "" is hidden on the site (Facebook and YouTube are hidden until you add them).
+1. **`assets/js/config.js`**: phone, WhatsApp, map links, Instagram, Facebook, YouTube. A link left as "" is hidden on the site .
 2. **`index.html`**: the same details in the `<script type="application/ld+json">` block (what Google reads) and the visible addresses in the Contact section.
 3. **Domain**: replace `https://sahyogstudio.in/` in `index.html`, `robots.txt` and `sitemap.xml` with the real domain.
 
-Still missing: opening hours, email, logo, Facebook and YouTube links.
+Still missing: opening hours, email and logo. The featured YouTube video id is set in `index.html` (`data-video="dgdABSCH8R8"`); change it to feature another film.
 
 ## Replace the sample photos
 

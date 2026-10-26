@@ -25,7 +25,7 @@ A local, full-service studio: wedding and pre-wedding photography, studio portra
 ## Capabilities and Constraints
 
 - Services (confirmed): Wedding & pre-wedding; Portraits & passport/ID; Events & balloon decoration; Video & albums.
-- Contact (confirmed 2026-10-26): phone/WhatsApp +91 99134 17943; Instagram @sahyog_studio_4006; head office Sahyog Photo Studio & Printing Press, Rakhiyal (map 23.251959, 72.899333); new branch Sahyog Recording Studio, Office 013, First Floor, Mahadev Arcade, opp. Patel Kathiyawadi Hotel, Atarsumba–Kapadvanj Highway, Atarsumba 387610. Not yet provided: hours, email, logo, Facebook, YouTube.
+- Contact (confirmed 2026-10-26): phone/WhatsApp +91 99134 17943; Instagram @sahyog_studio_4006; head office Sahyog Photo Studio & Printing Press, Rakhiyal (map 23.251959, 72.899333); new branch Sahyog Recording Studio, Office 013, First Floor, Mahadev Arcade, opp. Patel Kathiyawadi Hotel, Atarsumba–Kapadvanj Highway, Atarsumba 387610. Facebook profile.php?id=100008484213389; YouTube @sahyogphotostudiorakhital736; featured video dgdABSCH8R8. Not yet provided: hours, email, logo.
 - Justdial listing: https://www.justdial.com/Dehgam/Sahyog-Photo-Studio-Dahegam-Near-By-Municipal-Girls-High-School-Dahegam/9999PXX79-XX79-250830164301-F7Y8_BZDET
 
 ## Brand Commitments

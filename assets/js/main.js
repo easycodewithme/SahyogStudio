@@ -199,6 +199,22 @@
     });
   }
 
+  /* ---------- YouTube video (loads the player only on click) ---------- */
+  $$("[data-video]").forEach(function (box) {
+    var btn = box.querySelector(".video__play");
+    if (!btn) return;
+    btn.addEventListener("click", function () {
+      var f = doc.createElement("iframe");
+      f.src = "https://www.youtube-nocookie.com/embed/" + box.getAttribute("data-video") + "?autoplay=1&rel=0";
+      f.title = "Sahyog Studio video";
+      f.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+      f.allowFullscreen = true;
+      box.textContent = "";
+      box.appendChild(f);
+      f.focus();
+    });
+  });
+
   /* ---------- Scroll reveal ---------- */
   if ("IntersectionObserver" in window && !reduceMotion) {
     var targets = $$(".intro__body, .work__head, .svc__text, .svc__img, .films__content, .process .h-section, .step, .reviews__inner, .contact__info, .enquiry, .faq__list");
