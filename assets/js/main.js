@@ -32,10 +32,12 @@
       el.appendChild(doc.createTextNode(line));
     });
   });
-  var linkMap = { "data-maps": S.mapsUrl, "data-ig": S.instagram, "data-fb": S.facebook, "data-yt": S.youtube, "data-jd": S.justdial, "data-greviews": S.googleReviews };
+  var linkMap = { "data-maps": S.mapsUrl, "data-branch-maps": S.branchMapsUrl, "data-ig": S.instagram, "data-fb": S.facebook, "data-yt": S.youtube, "data-jd": S.justdial, "data-greviews": S.googleReviews };
   Object.keys(linkMap).forEach(function (attr) {
-    if (!linkMap[attr]) return;
-    $$("[" + attr + "]").forEach(function (a) { a.href = linkMap[attr]; a.target = "_blank"; a.rel = "noopener"; });
+    $$("[" + attr + "]").forEach(function (a) {
+      if (!linkMap[attr]) { a.hidden = true; return; }
+      a.href = linkMap[attr]; a.target = "_blank"; a.rel = "noopener";
+    });
   });
   $$("[data-map]").forEach(function (f) { if (S.mapsEmbed) f.src = S.mapsEmbed; });
   $$("[data-year]").forEach(function (el) { el.textContent = new Date().getFullYear(); });

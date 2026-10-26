@@ -16,7 +16,7 @@ People in and around Dahegam (Gandhinagar district, Gujarat) looking for a local
 
 ## Product Purpose
 
-Portfolio and contact hub for Sahyog Studio (listed as "Sahyog Photo Studio", near Municipal Girls High School, Dahegam). Success = a visitor sees the quality of the work and calls or WhatsApps the studio, or finds it on the map.
+Portfolio and contact hub for Sahyog Studio (listed as "Sahyog Photo Studio", Justdial lists it under Dahegam). Success = a visitor sees the quality of the work and calls or WhatsApps the studio, or finds it on the map.
 
 ## Positioning
 
@@ -25,7 +25,7 @@ A local, full-service studio: wedding and pre-wedding photography, studio portra
 ## Capabilities and Constraints
 
 - Services (confirmed): Wedding & pre-wedding; Portraits & passport/ID; Events & balloon decoration; Video & albums.
-- Contact details (phone, WhatsApp, address, hours, Instagram, Facebook, Maps, email): NOT yet provided. Ship as clearly marked placeholders kept in a single config object.
+- Contact (confirmed 2026-10-26): phone/WhatsApp +91 99134 17943; Instagram @sahyog_studio_4006; head office Sahyog Photo Studio & Printing Press, Rakhiyal (map 23.251959, 72.899333); new branch Sahyog Recording Studio, Office 013, First Floor, Mahadev Arcade, opp. Patel Kathiyawadi Hotel, Atarsumba–Kapadvanj Highway, Atarsumba 387610. Not yet provided: hours, email, logo, Facebook, YouTube.
 - Justdial listing: https://www.justdial.com/Dehgam/Sahyog-Photo-Studio-Dahegam-Near-By-Municipal-Girls-High-School-Dahegam/9999PXX79-XX79-250830164301-F7Y8_BZDET
 
 ## Brand Commitments

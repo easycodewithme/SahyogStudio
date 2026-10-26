@@ -350,6 +350,29 @@ address { font-style: normal; }
 .footer__nav a:hover, .footer__links a:hover { color: var(--white); }
 .footer__base { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; padding-block: 24px 32px; font-size: 0.8125rem; color: var(--on-dark-mute); }
 
+/* ---------- Floating WhatsApp ---------- */
+.wa-float {
+  position: fixed; right: 24px; bottom: 24px; z-index: 45;
+  display: flex; align-items: center; justify-content: flex-end;
+  height: 60px; min-width: 60px; padding: 0 18px; border-radius: 30px;
+  background: #25d366; color: #ffffff; text-decoration: none;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.28), 0 2px 6px rgba(0, 0, 0, 0.18);
+  transition: transform 0.35s var(--ease-out), box-shadow 0.35s var(--ease-out);
+}
+.wa-float .ico { width: 28px; height: 28px; }
+.wa-float__label {
+  max-width: 0; overflow: hidden; white-space: nowrap; opacity: 0;
+  font-size: 0.8125rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase;
+  transition: max-width 0.45s var(--ease-out), opacity 0.3s, margin 0.45s var(--ease-out);
+}
+.wa-float:hover, .wa-float:focus-visible { transform: translateY(-2px); box-shadow: 0 10px 28px rgba(0, 0, 0, 0.32), 0 3px 8px rgba(0, 0, 0, 0.2); }
+.wa-float:hover .wa-float__label, .wa-float:focus-visible .wa-float__label { max-width: 220px; opacity: 1; margin-left: 10px; }
+.wa-float::before {
+  content: ""; position: absolute; inset: 0; border-radius: inherit; border: 2px solid #25d366;
+  animation: waRing 2.4s var(--ease-out) 1.5s 3; opacity: 0; pointer-events: none;
+}
+@keyframes waRing { 0% { opacity: 0.7; transform: scale(1); } 100% { opacity: 0; transform: scale(1.45); } }
+
 /* ---------- Quickbar (mobile) ---------- */
 .quickbar { display: none; }
 
@@ -418,6 +441,9 @@ address { font-style: normal; }
   .lightbox__prev, .lightbox__next { grid-row: 2; margin-bottom: 24px; }
   .lightbox__prev { grid-column: 1; }
   .lightbox__next { grid-column: 2; }
+
+  .wa-float { right: 16px; bottom: calc(80px + env(safe-area-inset-bottom)); height: 56px; min-width: 56px; padding: 0 14px; }
+  .wa-float__label { display: none; }
 
   .quickbar {
     display: grid; grid-template-columns: 1fr 1.3fr 1fr; position: fixed; inset: auto 0 0; z-index: 40;

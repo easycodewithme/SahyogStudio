@@ -1,14 +1,16 @@
 # Sahyog Studio website
 
-Portfolio and contact site for **Sahyog Studio** (Sahyog Photo Studio), near Municipal Girls High School, Dahegam, Gujarat.
+Portfolio and contact site for **Sahyog Studio**: head office Sahyog Photo Studio & Printing Press, Rakhiyal; new branch Sahyog Recording Studio, Mahadev Arcade, Atarsumba–Kapadvanj Highway, Atarsumba 387610. Phone / WhatsApp +91 99134 17943, Instagram @sahyog_studio_4006.
 
 Plain HTML/CSS/JS. No build step. Open `index.html` in a browser, or host the folder on GitHub Pages, Netlify or Vercel.
 
-## Before going live: fill in the real details
+## Business details
 
-1. **`assets/js/config.js`**: phone, WhatsApp number, email, address, hours, Instagram, Facebook, YouTube and Google Maps links. Every button and link on the site reads from here.
-2. **`index.html`**: the same phone/email/address in the `<script type="application/ld+json">` block (this is what Google reads), plus the visible fallback text (search for `XXXXX`).
+1. **`assets/js/config.js`**: phone, WhatsApp, map links, Instagram, Facebook, YouTube. A link left as "" is hidden on the site (Facebook and YouTube are hidden until you add them).
+2. **`index.html`**: the same details in the `<script type="application/ld+json">` block (what Google reads) and the visible addresses in the Contact section.
 3. **Domain**: replace `https://sahyogstudio.in/` in `index.html`, `robots.txt` and `sitemap.xml` with the real domain.
+
+Still missing: opening hours, email, logo, Facebook and YouTube links.
 
 ## Replace the sample photos
 
